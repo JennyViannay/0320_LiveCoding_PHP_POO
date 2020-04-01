@@ -3,23 +3,25 @@
 class Article {
 
     private $title;
-    private $content;
-    private $author;
+    public $content;
 
     public function __construct($title)
     {
         $this->title = $title;
     }
 
-    public function getTitle(){
+    public function getTitle()
+    {
         return $this->title;
     }
 
-    public function setTitle($title){
+    public function setTitle($title)
+    {
         $this->title = $title;
     }
 
-    public function getContent(){
+    public function getContent()
+    {
         return $this->content;
     }
 
